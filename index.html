@@ -1,0 +1,1085 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/topojson.v3.min.js"></script>
+    <script src="https://d3js.org/d3.v7.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/d3-simple-slider"></script>
+    <script src="src/eg_linegraph.js"></script>
+    <script type="module" src="src/map_plotting.js"></script>
+    <script type="module" src="src/climate_data.js"></script>
+    <script type="module" src="src/gsl_plot.js"></script>
+    <script src="src/gsl_birds_plot.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GSLBirdVis</title>
+    
+  </head>
+  <body> 
+  <div class="vis-name" 
+    style="vertical-align: text-top;">
+      GSLBirdVis
+      <button class="button-54" id ='home-button' role="button" style="opacity: 0; display: none;">HOME</button>
+      <button class="button-54" id ='about-button' role="button">ABOUT</button>
+      <div class="popup-overlay" id="popup-overlay" style="display: none;"></div>
+      <div class="popup" id="popup" style="display: none;">
+        <p id="popup-text" class='text-style' style="font-size: 16px;">Welcome to the GSLBirdVis website! 
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease; font-size: 14px;">
+            We invite you to explore the migration patterns and climate sensitivities of the Eared Grebe and American White Pelican—two species that rely 
+            heavily on the Great Salt Lake for survival. As you navigate this interactive experience, you'll gain insight into the fragile balance between these species 
+            and their environment, highlighting the stark realities of our changing climate. <a href="https://github.com/visdesignlab/birds" target="_blank">GitHub</a>
+          </span>  
+
+        </p>
+        <button class="close-btn" id="close-button">Close</button>
+      </div>
+    </div>
+    
+    <style>
+    .vis-name {
+      width: 100%; 
+      height: 30px;
+      color: black;
+      font-size: 27px;
+      font-family: 'Times New Roman';
+      font-weight: bold;
+      background-color: white;
+      text-align: left;
+      position: absolute;
+      padding-left: 12px;
+      box-shadow: 0 4px 6px -3px rgba(0, 0, 0, 0.3);
+      border-bottom: 0.8px solid black;
+      line-height: 0.8;
+      z-index: 10;
+    }
+
+    .button-54 {
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #000;
+      cursor: pointer;
+      border: 2px solid;
+      float: right;
+      box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      margin-right: 15px;
+      line-height: 0.5;
+    }
+
+    .button-54:active {
+      box-shadow: 0px 0px 0px 0px;
+    }
+
+    @media (min-width: 300px) {
+      .button-54 {
+        padding: 0.38em 0.70em;
+      }
+    }
+
+    .popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      width: 700px;
+      text-align: center;
+      z-index: 99999; 
+      isolation: isolate; 
+      background: white;
+    }
+    .popup-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 9998;
+    }
+    .close-btn {
+        margin-top: 10px;
+        cursor: pointer;
+        background: lightgray;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin: 10px auto;
+    }
+
+    </style>
+    <div class="opening" width=100%>
+        <img src="src/images/Animation Eat GIF by Zezaz.gif" width="60%"
+        style="transition: opacity 1s ease;"/>
+        <p class = "title" 
+        style=
+        "vertical-align: middle; 
+        display: inline; line-height: 1.3;
+        margin-left: 70px; 
+        margin-top: 100px; 
+        font-size: 35px; 
+        font-family: nyt-cheltenham,Georgia,serif; 
+        font-style: normal;
+        font-weight: 200; 
+        background-color: white;
+        transition: opacity 0.5s ease;
+        top: 0;
+        z-index: 1;"> 
+          Finding the Flight of <br> Least Resistance
+          <br> <span style="font-size: 15px;">
+            by: Zoe Exelbert
+          </span>
+        </p>
+    
+        <style>
+        .opening{
+          display: flex;
+          align-items: center;
+          text-align: center;
+          margin-top: 10px;
+          transition: transform 1s ease, opacity 1s ease;
+        }
+
+        </style>
+    </div>
+    <div class = "opening_storyline" id="opening_storyline"
+      style=
+      "opacity: 0;
+      background-color: white;
+      transition: transform 1s ease, opacity 1s ease;
+      display: flex; 
+      flex-direction: column;
+      position: relative;  
+      align-items: center;  
+      justify-content: center;
+      margin-top: 8px;"> 
+      <div class="main-text" id = "main-text"
+        style=
+        "font-family: 'Times New Roman', serif;
+        color: black;
+        font-size: 16;
+        white-space: normal;
+        width: 700px; 
+        line-height: 1.7;">
+        <p> <span style="font-size: 16; line-height: 1;"> T</span>he Great Salt Lake is a prominent stopping point for over 10 million birds year-round. Situated 
+          on the Pacific Flyway Route, the Great Salt Lake is a top attraction to over 338 species who utilize the lake's resources for breeding, feeding, and temporary 
+          habitats during seasonal migration periods. </p> 
+        <p>The flight to the Great Salt Lake for these birds has never been questioned, as it is an evolved response to the Great Salt Lake's 
+          continuous offering of food and habitat safety. However, as the climate begins to warm, water levels are dropping and food is becoming more scarce. 
+        <p>Two species in specific, the <i> Eared Grebe </i> and the <i>American White Pelican</i>, are extremely vulnerable to 
+          the environmental deterioration of the lake. With the majority of their continental population coming to the GSL every year, if conditions continue
+          to worsen, both of these species are in danger. </p> 
+        <p>Here we will investigate the climate effects these birds are vulnerable to as we fly along with them over the years, answering the question, is flying to the Great Salt lake still the flight of least resistance?</p>
+      </div>
+      <div style="justify-content: center;">
+        <button class="button-55" id="grebe-button" role="button">
+            FLY AS A GREBE
+        </button>
+        <button class="button-55" id="pelican-button" role="button" style="margin-left: 30px;">
+            FLY AS A PELICAN
+        </button>
+      </div>      
+    </div>
+
+    <div class = "EG_opening"
+      style=
+      "display: flex; 
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 8px;
+      width: 100%; 
+      justify-content: center;
+      max-height: 100vh;
+      overflow-y: auto;
+      scrollbar-width: none;">
+      <div class="grebe-content" 
+        style=
+        "opacity: 0;
+        transition: transform 1s ease, 
+        opacity 1.5s ease; 
+        overflow-wrap: break-word; 
+        word-wrap: break-word; 
+        margin-top: 8vh;
+        font-family: 'Times New Roman', serif;
+        color: black;
+        font-size: 1.2vw;
+        width: 40%;
+        margin-left: 3vw;
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-width: none;">
+        <p class = "text-style" id="grebe-content1">
+          <span style="font-size: 2.6vw; line-height: 1; font-family: 'Times New Roman', serif;color: black;">T</span>he Eared Grebe, the most abundant grebe species in the world, 
+          begins their flight South from the Pacific Northwest towards the Great Salt Lake around September. </p>
+        <p class="text-style" id="grebe-content2">
+          During this time in the Fall, Grebes come to stock up on food before heading to Mexico for the winter. Then, in the Spring, the Grebes will come back to breed and nest at the 
+          GSL.
+        </p>
+        <svg id="grebes_pic"
+          viewBox="0 0 1800 1200" 
+          preserveAspectRatio="xMidYMid meet"
+          style="display: block; 
+                margin-left: 4vw; 
+                width: 80%; 
+                height: auto;">
+          <image xlink:href="src/images/grebes.jpeg"/>
+        </svg>
+
+        <p class="text-style" id ="grebe-content4" style="opacity: 0; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease; display: none;">
+          Over an entire year, the Great Salt Lake hosts anywhere from 2 to 5 million Eared Grebes, which at times is almost the entire North American population. 
+          As the Grebes travel between Mexico and the Great Salt Lake, the associated climate with these locations largely directs the 
+          success of their migration. 
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+          When the Grebes are wintering in Mexico before making their journey to the GSL, they are heavily dependent on the fish supply available. To complete this long, non-stop journey, 
+          they must consume substantial amounts of fish beforehand. 
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            However, fish populations in these Mexican waters can experience significant stress due to climate events, which may impact the Grebes' 
+            ability to adequately prepare for their migration.
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            Explore the observation map to see how Grebe movement patterns shift year by year, 
+            setting the stage for a deeper look into how climate-driven stressors across regions impact this migratory cycle.
+          </span>
+
+        </p>
+
+        <div id=eg_map_animation style="display: flex; flex-direction: row; justify-content: center; text-align: center; align-items: center; opacity: 1; margin-top: 2vh;
+        padding-bottom: 5vh;"> 
+          <button class="button-55" id="visualize-migration" role="button">
+            VISUALIZE MIGRATION
+          </button>
+          <button class="button-55" id="climate_button_eg" role="button" style="display: none; margin-left: 2vw;">
+            INVESTIGATE CLIMATE
+          </button>
+        </div>
+
+        <div id="eg_climate_div">
+          <p class = "text-style" id="eg-content" style="opacity: 0; transition: transform 1s ease, opacity 1.5s ease; display: none; ">
+            One of the key climate changes in Mexico is the fluctuation in ocean temperatures, primarily driven by El Niño and La Niña events.         
+          <svg id="eg_climate_svg" 
+            viewBox="0 0 900 900" 
+            preserveAspectRatio="xMidYMid meet"
+            style="display: none; width: 100%; height: auto;">
+          </svg>
+          <p class = "text-style" id="eg-content2" style="opacity: 0; transition: transform 1s ease, opacity 1.5s ease; display: none; ">
+            This graph illustrates that El Niño events are linked to rising ocean temperatures, whereas La Niña events are associated with a drop in ocean temperatures.
+
+            <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+              During an El Niño event, the warming of ocean waters negatively impacts fish populations. Fish typically thrive in cooler waters, 
+              so when ocean temperatures rise, they are either compelled to migrate to cooler areas or may not survive at all. 
+            </span>
+
+            <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+              In response to these sudden adaptations, fish often retreat to deeper, cooler waters where they can more easily thrive. 
+              However, this presents a challenge for Grebes, as their small stature limits their diving depth. With fish swimming beyond their 
+              maximum foraging depth, Grebes must expend significant energy attempting deeper dives or searching for new feeding grounds where 
+              fish remain within reach. 
+            </span>
+
+            <svg id="grebe_diving"
+              viewBox="0 0 1200 720" 
+              preserveAspectRatio="xMidYMid meet"
+              style="display: block; 
+                    margin-top: 4vh;
+                    margin-left: 2.5vw; 
+                    width: 100%; 
+                    height: auto;">
+              <image xlink:href="src/images/grebe_diving.png"/>
+            </svg>
+
+            <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+              The complete opposite occurs during a La Niña. Colder waters during these times allow for fish to thrive extremely well, now able to swim at their usual depth, making for some very happy Grebes.
+            </span>
+
+            <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+              Changes in fish populations during climate events directly affect the Grebes, as their survival and migration depend on a steady fish supply. 
+              When fish numbers drop during an El Niño, Grebes are forced to adapt to these conditions. 
+            </span>
+
+            <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+              These climate shifts may cause Grebes to delay their migration to the Great Salt Lake in the Spring as they try to follow the fish to their 
+              new locations in search of food. However, if they are still not adequately fed, their lack of energy might prevent them from even attempting the journey.
+            </span>
+
+            <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+              The Great Salt Lake has also undergone significant climate changes, making matters even worse for the Grebes. Not only are they faced with challenges 
+              during their wintering period in Mexico, but their time at the lake is becoming more stressful.
+            </span>
+          </p>
+          <button class="button-55" id="eg_gsl_button" role="button" style="display: none; margin-left: 8vw; padding-bottom: 2vh; margin-bottom: 3vh;">
+            GO TO THE GREAT SALT LAKE
+          </button>
+        </div>
+
+        <div id=eg_gsl_elevation_div>
+          <svg id="eg_gsl_elevation_svg" 
+            viewBox="0 0 900 600" 
+            preserveAspectRatio="xMidYMid meet"
+            style="display: none; width: 100%; height: auto; margin-top: 5vh;">
+          </svg>
+        </div>
+
+        <p class = "text-style" id="eg-gsl-content1" style="opacity: 0; transition: transform 1s ease, opacity 1.5s ease; display: none; ">
+          The Great Salt Lake has undergone significant landscape and ecological transformations due to rising local temperatures driven by climate change.
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+          Illustrated in this graph, the lake has dropped significantly in the past 20 years. To restore the lake to a healthy level, it will take many years of 
+          consistent, heavy winters and rainfall to accomplish this. Even with optimal weather patterns, refilling the lake will be slow and uncertain, 
+          as the amount of water needed to return it to its previous size and ecological health is immense.  
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            The Great Salt Lake has been a historical attraction to birds solely because of the availability of brine shrimp. Eared Grebes are extremely
+            reliant on a healthy brine shrimp supply, needing to consume 28,000 adult brine shrimp daily to survive. This equates to approximately 7-8 hours of 
+            foraging a day, which means Grebes need to consume 1 brine shrimp per second in order to meet their dietary needs.  
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            As the water levels at the Great Salt Lake decline, the resulting increase in salinity places significant stress on the brine shrimp populations, which 
+            can lead to their decline. Brine shrimp can only survive within a specific salt concentration range, and with this ongoing trend of decreasing lake levels, 
+            the rising salinity levels present a serious threat to their survival.         
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            Just like the fish supply in Mexico, the survival of brine shrimp at the Great Salt Lake is closely linked to the well-being of the Grebes. 
+            With such a strict dietary plan, any disruption in the availability of these shrimp puts the Grebes in a highly vulnerable position.          
+          </span>
+          
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            On top of this, Grebes tend to either stay at the lake through the summer or return in September from a more Northern location they traveled to. 
+            Starting around October, Grebes undergo molting, a process in which they shed and regrow feathers. The molting process allows Grebes to grow a new set of 
+            feathers and gain weight in preparation for their fall migration back to Mexico.  
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            Because Grebes are flightless during this time, known as the fall-staging period, these birds are entirely dependent on the lake's local food resources. 
+            If their immediate environment fails to provide adequate sustenance, they have no alternative 
+            food sources and face severe survival challenges.    
+          </span>
+
+          <svg id="grebe_feather"
+              viewBox="0 0 3000 1300" 
+              preserveAspectRatio="xMidYMid meet"
+              style="display: block; 
+                    text-align: center;
+                    margin-top: 4vh;
+                    margin-left: 4vw; 
+                    width: 100%; 
+                    height: auto;">
+              <image xlink:href="src/images/grebe_feather.avif"/>
+          </svg>
+          <span style="display: block; text-align: center; font-size: 12px; color: #555; margin-top: 1rem;">
+            When the lake’s menu is slim, a feather might be the best on the menu.
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            Grebes go through a very similar cycle to the fall-staging period 3-6 times each year, during which they become flightless to conserve energy resources. 
+            This renders the Grebes flightless for almost 9-10 months each year, the longest flightless period of any bird in the world capable of flight. 
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            With the Great Salt Lake historically being host to nearly the entire national population of Eared Grebes, these risks are large. 
+            Bound to long periods of flightlessness and ongoing food challenges both in Mexico and at the Great Salt Lake, Grebes are facing real 
+            threats to their population survival. 
+          </span>
+
+        </p> 
+
+        <div id=eg_gsl_birds_plot_div>
+          <svg id="eg_gsl_birds_plot_svg" 
+            viewBox="0 0 900 550" 
+            preserveAspectRatio="xMidYMid meet"
+            style="display: none; width: 100%; height: auto; margin-top: 5vh;">
+          </svg>
+        </div>
+
+        <p class = "text-style" id="eg-gsl-content2" style="opacity: 0; transition: transform 1s ease, opacity 1.5s ease; display: none; ">
+          While the map gives us a helpful way to see how bird movement changes over time, it doesn’t account for how many people were out 
+          birdwatching each year. Since birding has grown more popular, more sightings are being reported—not always because there are more 
+          birds, but because more people are out looking. This graph helps balance that out by comparing bird sightings to the number of 
+          checklists submitted, giving a more accurate view of real population trends.
+          
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            This graph displays a clear recent decline in Grebe observations, following a previous trend of increased sightings. These changes 
+            could be exemplatory of the struggles mentioned previously, which are clearly causing real changes to Grebe populations.
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            Let's take a closer look at some year-to-year comparisons to better understand the challenges Grebes are faced with, which could 
+            explain their recent population decline at the Great Salt Lake. 
+          </span>
+          
+        </p> 
+
+        <div id=eg_comparison_plot_1>
+          <svg id="eg_comparison_plot_1_svg" 
+            viewBox="0 0 900 650" 
+            preserveAspectRatio="xMidYMid meet"
+            style="display: none; width: 100%; height: auto; margin-top: 5vh;">
+          </svg>
+        </div>
+
+        <p class = "text-style" id="eg_comparison_plot1" style="opacity: 0; transition: transform 1s ease, opacity 1.5s ease; display: none; ">
+          Here we see similar patterns in 2009 and 2011, but with noticeably fewer species reported in 2009. This dip may be linked to the 2009 El Niño event, which warmed ocean waters and forced fish to retreat to deeper, 
+          cooler waters—too deep for Grebes. This likely made feeding far more difficult, leaving the Grebes undernourished and less likely to complete their migration successfully. In contrast, the 2011 La Niña year brought 
+          cooler ocean conditions that supported a healthier fish population, improving foraging success and enabling more Grebes to reach the Great Salt Lake.
+        </p>
+
+        <div id=eg_comparison_plot_2>
+          <svg id="eg_comparison_plot_2_svg" 
+            viewBox="0 0 900 650" 
+            preserveAspectRatio="xMidYMid meet"
+            style="display: none; width: 100%; height: auto; margin-top: 5vh;">
+          </svg>
+        </div>
+
+        <p class = "text-style" id="eg_comparison_plot2" style="opacity: 0; transition: transform 1s ease, opacity 1.5s ease; display: none; ">
+          This graph shows similar patterns in 2011 and 2015, but with noticeably steeper declines in 2015—likely a response to the extreme El Niño that year. In contrast, the cooler, more stable conditions of the 
+          2011 La Niña supported steadier Grebe numbers. These trends highlight how Grebes may be reacting to the heightened instability and harsher impacts of strong El Niño conditions.
+        </p>
+
+        <div id="eg-dropdown-container" style="display: none;">
+          <label for="eg-year1-dropdown">Year 1:</label>
+          <select id="eg-year1-dropdown">
+              <option value="2004">2004</option>
+              <option value="2005">2005</option>
+              <option value="2006">2006</option>
+              <option value="2007">2007 (La Niña Year)</option>
+              <option value="2008">2008</option>
+              <option value="2009">2009 (El Niño Year)</option>
+              <option value="2010">2010 (La Niña Year)</option>
+              <option value="2011">2011 (La Niña Year)</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015 (El Niño Year)</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020 (La Niña Year)</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023 (El Niño Year)</option>
+          </select>
+      
+          <label for="eg-year2-dropdown">Year 2:</label>
+          <select id="eg-year2-dropdown">
+              <option value="2004">2004</option>
+              <option value="2005">2005</option>
+              <option value="2006">2006</option>
+              <option value="2007">2007 (La Niña Year)</option>
+              <option value="2008">2008</option>
+              <option value="2009">2009 (El Niño Year)</option>
+              <option value="2010">2010 (La Niña Year)</option>
+              <option value="2011">2011 (La Niña Year)</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015 (El Niño Year)</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020 (La Niña Year)</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023 (El Niño Year)</option>
+          </select> 
+        </div>
+        
+      
+        <div id=eg_gsl_comparison_plots_div>
+          <svg id="eg_gsl_comparison_plots_svg" 
+            viewBox="0 0 900 650" 
+            preserveAspectRatio="xMidYMid meet"
+            style="display: none; width: 100%; height: auto; margin-top: 5vh;">
+          </svg>
+        </div>
+
+        <p class = "text-style" id="eg_story_end" style="opacity: 0; transition: transform 1s ease, opacity 1.5s ease; display: none; ">
+          Ignite your curiosity on what might be happening year to year and explore for yourself with these comparison charts. 
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            These patterns aren’t just numbers—they tell a story of survival. For Eared Grebes, survival hinges on a delicate balance between climate conditions in Mexico and those at the Great Salt Lake. 
+            As climate shifts—like El Niño—alter marine ecosystems, Grebes face disrupted food sources during winter, which directly impacts 
+            their ability to complete the migration north in the spring.
+          </span>
+          
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            Once at the lake, they are met with another challenge: a drying habitat and a shrinking brine shrimp population. For birds that spend much of the year 
+            flightless and bound to the water, these conditions can turn into serious survival threats.
+          </span>
+          
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            We may be witnessing the beginning of a shift—Grebes potentially seeking more stable habitats elsewhere. If the lake continues to decline, the Great Salt Lake 
+            could lose its role as a vital stopover site for nearly the entire national population of this species.
+          </span>
+          
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            Gaining insight into these patterns is a crucial step toward grasping the complex challenges bird species are facing in a changing world — 
+            challenges that are deeply connected to the health of entire ecosystems, including our own.
+          </span>
+          
+        </p>
+        <button class="button-55" id='eg-switch-story-button' role="button" style="opacity: 0; display: none; margin-bottom: 3vh; margin-left: 8vw;">
+          EXPLORE THE PELICAN'S STORY
+        </button>
+
+        
+      
+      </div>
+
+      <div class="grebe-map" id="grebe-map"
+        style="flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        overflow-y: none;
+        margin-top: 7vh;">
+
+        <canvas id="eg-map-canvas" 
+          style="width: 100%; height: auto;">
+        </canvas>
+
+        <div id="eg-slider" 
+        style="display: none; position: absolute; width: 50%; bottom: 5vh;">
+
+          <label for="eg-month-slider" style="margin-top: 3vh;">Month: <span id="eg-month-label">January</span></label>
+          <div style="position: relative; width: 100%;">
+              <svg id="info-icon-eg" width="40" height="40" style="position: absolute; top: -40px; right: 10px; cursor: pointer;"></svg>
+              <div id="eg-month-ticks">
+              </div>
+              <input type="range" id="eg-month-slider" min="0" max="11" step="1" style="width: 100%; position: relative; z-index: 10;">
+          </div>
+      
+          <label for="eg-year-slider" style="margin-top: 5vh; z-index: 1;">Year: <span id="eg-year-label">2004</span></label>
+          <div style="position: relative; width: 100%;">
+              <div id="eg-slider-ticks">
+              </div>
+              <input type="range" id="eg-year-slider" min="0" max="11" step="1" style="width: 100%; position: relative; z-index: 10;">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="pelican-opening" id="pelican-opening"
+      style= "display: flex; 
+              flex-direction: row;
+              justify-content: center;
+              margin-top: 8px;
+              width: 100%; 
+              justify-content: center;
+              max-height: 100vh;
+              overflow-y: auto;
+              scrollbar-width: none;">
+      <div class="pelican-content" 
+        style="opacity: 0;
+              transition: transform 1s ease, 
+              opacity 1.5s ease; 
+              overflow-wrap: break-word; 
+              word-wrap: break-word; 
+              margin-top: 8vh;
+              font-family: 'Times New Roman', serif;
+              color: black;
+              font-size: 1.2vw;
+              width: 40%;
+              margin-left: 3vw;
+              overflow-y: auto;
+              overflow-x: hidden;
+              scrollbar-width: none;">
+        <p class = "text-style" id="pelican-content1" style="display: block; transition: transform 1s ease, opacity 1.5s ease;">
+          <span style="font-size: 2.6vw; line-height: 1;"> T</span>he world's second largest colony of American White Pelican's exist on Great Salt Lake's Gunnison Island. Located on the 
+          west shore of the the lake in the north arm of Gunnison bay, Pelicans have been visiting here for over 125,000 years.  
+        </p>
+        <svg id="gunn_island"
+          viewBox="0 0 900 900" 
+          preserveAspectRatio="xMidYMid meet"
+          style="display: block; 
+                margin-left: 4.5vw; 
+                width: 100%; 
+                height: auto;">
+          <image xlink:href="src/images/gunn_island.png"/>
+        </svg>
+
+        <p class = "text-style" id="pelican-content2" style="opacity: 0; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease; display: none; ">
+            Here we can visualize the migration flow of the Pelicans over the last 20 years. These Pelicans can stay at the Great Salt Lake year-round, but more commonly 
+            come in the Springtime to nest and breed. Prior to their Spring arrival, the Pelicans overwinter in Mexico, soaking up the sun and eating lots of fish before the thousands 
+            mile long journey to Utah. 
+
+            <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+              To successfully complete their migration, Pelicans need to be well-nourished before leaving Mexico — making them heavily dependent on a 
+              healthy, abundant fish supply. However, increasingly severe ocean warming has disrupted these conditions, significantly impacting the 
+              birds’ ability to feed before their journey to the Great Salt Lake.
+            </span>
+
+            <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+              By examining how climate conditions in Mexico impact fish populations, we gain critical insight into the challenges Pelicans 
+              face, highlighting how environmental stressors in one region can cascade through an entire migratory cycle. 
+            </span>
+
+            <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+              Explore the observation map to see how Pelican movement patterns shift year by year, 
+              setting the stage for a deeper look into how climate-driven stressors across regions impact this migratory cycle.
+            </span>
+        </p>
+
+    
+        <div id = "amp_map_animation" style="display: flex; flex-direction: row; justify-content: center; text-align: center; align-items: center; opacity: 1; margin-top: 2vh;
+        padding-bottom: 5vh;"> 
+          <button class="button-55" id="map_button" role="button">
+            VISUALIZE MIGRATION
+          </button>
+          <button class="button-55" id="climate_button" role="button" style="display: none; margin-left: 2vw;">
+            INVESTIGATE CLIMATE
+          </button>
+        </div>
+
+        <div id="pelican_climate_div">
+          <p class = "text-style" id="pelican-content3" style="opacity: 0; transition: transform 1s ease, opacity 1.5s ease; display: none; ">
+            One of the most notable climate shifts in Mexico is the variation in ocean temperatures. These shifts are best represented by the El Niño and La Niña climate events.
+          <svg id="pelican_climate_svg" 
+            viewBox="0 0 900 900" 
+            preserveAspectRatio="xMidYMid meet"
+            style="display: none; width: 100%; height: auto;">
+          </svg>
+          <p class = "text-style" id="pelican-content4" style="opacity: 0; transition: transform 1s ease, opacity 1.5s ease; display: none; ">
+            This graph shows that El Niño events are closely associated with rising ocean temperatures, while La Niña events correspond to a decline in ocean temperatures.
+
+            <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+              When the ocean warms during an El Niño event, this has a negative effect on fish populations. Fish survive best in cold water temperatures, 
+              so when these above average ocean temperatures are experienced, fish are either forced to migrate elsewhere to colder waters or simply do not survive. 
+            </span>
+
+            <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+              The complete opposite occurs during a La Niña. Colder waters during these times allow for fish to thrive extremely well, 
+              resulting in some very happy Pelicans. 
+            </span>
+
+            <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+              What happens to the fish during these climate events has a cascade effect on the Pelicans, as their survival and migration success is directly dependent on the fish supply. 
+              When fish supply is low during an El Niño, Pelicans must evolve to adapt to these changes. 
+            </span>
+
+            <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+              Faced with the increased effort required to find available fish, these Pelicans may delay their spring migration to the Great Salt Lake. 
+              If Pelicans continue to struggle building up enough energy reserves, they might be discouraged to even attempt the journey — lacking 
+              the strength to complete such a demanding trip. 
+            </span>
+
+            <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+              And, to make matters worse, the Great Salt Lake has also undergone extreme changes due to shifting climates. As a result, not only have the Pelicans experienced challenges on some of their Mexican winter breaks,
+              but their Spring and Summer seasons at the Great Salt Lake are becoming increasingly less enjoyable.
+            </span>
+
+          </p>
+          <button class="button-55" id="gsl_button" role="button" style="display: none; margin-left: 8vw; padding-bottom: 2vh; margin-bottom: 3vh;">
+            GO TO THE GREAT SALT LAKE
+          </button>
+
+          <p class="text-style" id='gsl-opener' style="display: none; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            The Great Salt Lake has experienced dramatic changes in landscape and ecological health as local temperatures have risen as 
+            a result of climate change. 
+          </p>
+        </div>
+
+        <div id=gsl_elevation_div>
+          <svg id="gsl_elevation_svg" 
+            viewBox="0 0 900 600" 
+            preserveAspectRatio="xMidYMid meet"
+            style="display: none; width: 100%; height: auto; margin-top: 5vh;">
+          </svg>
+        </div>
+
+        <p class = "text-style" id="gsl-content1" style="opacity: 0; transition: transform 1s ease, opacity 1.5s ease; display: none; ">
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            Northern Utah temperatures have increased almost 2 degrees Farenheit since the early 1980s, which has evidently caused declines at the Great Salt Lake. On top of this, 
+            inflows from the Bear, Weber, and Jordan rivers have gradually declined over the past 40 years. Not only do these rivers provide water to the lake, but they support 
+            the diets of many Pelicans. 
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            The Great Salt Lake has been a historical attraction to birds solely because of the availability of brine shrimp. Yet, Pelicans do not typically consume the brine shrimp supply available at the lake. Their 
+            diet mainly consists of fish, which cannot be found in the lake given it's high salty content. These fish are available at freshwater locations, the closest ones being
+            the Bear, Weber, and Jordan rivers. If these local rivers do not have sufficient food supply, as a result of low water levels, Pelicans will travel anywhere from 40 to 200 miles to get their fish fix.
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            As you can see in this graph, the lake has dropped over 5 feet in the past 20 years. While this may not 
+            seem like a lot, it will take many years of consistent, heavy winters and rainfall to restore the lake to a healthy, sustainable level. 
+            Even with ideal weather patterns, the process of refilling the lake will be slow and uncertain, as the amount of water needed to bring it 
+            back to its former size and ecological health is immense.
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            Gunnison Island, the Pelicans main hub at the lake, is one of the most visibly affected areas by the declining water levels. 
+            The island is no longer a true island or 
+            isolated habitat, and is now better denoted as a "land bridge". The shrinking of the lake has connected what was once Gunnison Island with the perimeter of the lake, allowing 
+            coyotes and other predators easy access by crossing these land bridges. 
+          </span>
+
+          <svg id="amp_gunnison"
+              viewBox="0 0 1000 400" 
+              preserveAspectRatio="xMidYMid meet"
+              style="display: block; 
+                    margin-top: 4vh;
+                    margin-left: 6vw; 
+                    width: 100%; 
+                    height: auto;">
+              <image xlink:href="src/images/amp_gunnison.jpg"/>
+          </svg>
+          <span style="display: block; text-align: center; font-size: 12px; color: #555; margin-top: 1rem;">
+            Pelicans photographed together at Gunnison Island. 
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            So, what does this mean for the Pelicans? 
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            The degrading health of the lake and the rivers that support it's water levels could discourage Pelicans from continuing to come to the Great Salt Lake. Overcompensating for the lack of food during 
+            low elevation years by flying extraneous distances to support their own, and their young's diets can become exhausting. Additionally, increased predation disrupting Pelicans nests adds further stress, 
+            making the island a less viable breeding ground. 
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            As ideal weather patterns become less and less hopeful with intensifying effects of climate
+            change, hopes of restoring the lake to a healthy level is becoming scarce. For the Pelicans, this means an 
+            increasingly uncertain future—without reliable water levels and food sources, their annual return to the Great Salt Lake 
+            may soon be too risky or unsustainable to continue.
+          </span>
+
+        </p> 
+
+        <div id=gsl_birds_plot_div>
+          <svg id="gsl_birds_plot_svg" 
+            viewBox="0 0 900 550" 
+            preserveAspectRatio="xMidYMid meet"
+            style="display: none; width: 100%; height: auto; margin-top: 5vh;">
+          </svg>
+        </div>
+
+        <p class = "text-style" id="gsl-content2" style="opacity: 0; transition: transform 1s ease, opacity 1.5s ease; display: none; ">
+          While the map gives us a helpful way to see how bird movement changes over time, it doesn’t account for how many people were out 
+          birdwatching each year. Since birding has grown more popular, more sightings are being reported—not always because there are more 
+          birds, but because more people are out looking. This graph helps balance that out by comparing bird sightings to the number of 
+          checklists submitted, giving a more accurate view of real population trends.
+  
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            We can see that bird observations continued to increase from 2004-2012, but following this, we can observe a gradual
+            decline throughout the next decade.  
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            These trends are likely linked to the factors we’ve discussed earlier. For example, Pelicans may arrive at the Great Salt
+            Lake in poor condition after struggling to find enough food during their time in Mexico. They could also face challenges at 
+            the lake itself, like trouble finding food or protecting their nests. It's possible that all these factors are happening 
+            together, making the birds’ journey and survival even harder.
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            Let’s take a closer look at some year-to-year comparisons to better understand the challenges Pelicans may be facing, which 
+            could explain the recent decline in their population at the Great Salt Lake.
+          </span>
+
+        </p> 
+
+        <div id=comparison_plot_1>
+          <svg id="comparison_plot_1_svg" 
+            viewBox="0 0 900 650" 
+            preserveAspectRatio="xMidYMid meet"
+            style="display: none; width: 100%; height: auto; margin-top: 5vh;">
+          </svg>
+        </div>
+
+        <p class = "text-style" id="comparison_plot1" style="opacity: 0; transition: transform 1s ease, opacity 1.5s ease; display: none; ">
+          Here we observe similar trends in 2009 and 2011, though there are fewer species reported in 2009 compared to 2011. This could 
+          largely be associated with the 2009 El Niño, which disrupted the fish supply, leading to fewer Pelicans arriving at the Great Salt 
+          Lake. 2011, a La Niña year, helped restore healthy conditions for fish, providing better feeding conditions in Mexico for the Pelicans 
+          and facilitating their migration to the lake. 
+        </p>
+        
+        <div id=comparison_plot_2>
+          <svg id="comparison_plot_2_svg" 
+            viewBox="0 0 900 650" 
+            preserveAspectRatio="xMidYMid meet"
+            style="display: none; width: 100%; height: auto; margin-top: 5vh;">
+          </svg>
+        </div>
+
+        <p class = "text-style" id="comparison_plot2" style="opacity: 0; transition: transform 1s ease, opacity 1.5s ease; display: none; ">
+          Here, we can see that the numbers in 2010 are still lower compared to 2011. This could be attributed to the Pelicans continuing to 
+          struggle with their migration to the Great Salt Lake after the disruptions caused by the 2009 El Niño. However, there is a slight 
+          increase in 2010 from 2009, likely reflecting some recovery from the previous year's conditions. 
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            While 2010 was a La Niña year, the effects of ocean cooling take time to manifest, so the fish population may not have responded immediately. By 2011, during a second La Niña year, 
+            the cooler ocean temperatures would have had a more stable and consistent effect on the fish, allowing them to thrive and providing the Pelicans with better feeding conditions. 
+            This likely contributed to the increased number of Pelicans arriving at the GSL in 2011.
+          </span>
+        </p>
+
+        <div id=comparison_plot_3>
+          <svg id="comparison_plot_3_svg" 
+            viewBox="0 0 900 650" 
+            preserveAspectRatio="xMidYMid meet"
+            style="display: none; width: 100%; height: auto; margin-top: 5vh;">
+          </svg>
+        </div>
+
+        <p class = "text-style" id="comparison_plot3" style="opacity: 0; transition: transform 1s ease, opacity 1.5s ease; display: none; ">
+          The 2015 El Niño was the strongest event seen in the past 20 years. In contrast, 2023 also experienced an El Niño, but during this 8 year period, the Great Salt Lake has experienced rapid decline. 
+          While bird numbers were higher in 2015 compared to 2023, the combination of an extreme El Niño and worsening conditions at the lake suggests that Pelicans might truly be becoming increasingly 
+          discouraged from migrating to the lake.
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            With the ongoing deterioration of their habitat and food sources, they may now be forced to look elsewhere for survival, signaling a critical shift in their migratory behavior.
+          </span>
+        </p>
+
+        <div id="dropdown-container" style="display: none;">
+          <label for="year1-dropdown">Year 1:</label>
+          <select id="year1-dropdown">
+              <option value="2004">2004</option>
+              <option value="2005">2005</option>
+              <option value="2006">2006</option>
+              <option value="2007">2007 (La Niña Year)</option>
+              <option value="2008">2008</option>
+              <option value="2009">2009 (El Niño Year)</option>
+              <option value="2010">2010 (La Niña Year)</option>
+              <option value="2011">2011 (La Niña Year)</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015 (El Niño Year)</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020 (La Niña Year)</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023 (El Niño Year)</option>
+          </select>
+      
+          <label for="year2-dropdown">Year 2:</label>
+          <select id="year2-dropdown">
+              <option value="2004">2004</option>
+              <option value="2005">2005</option>
+              <option value="2006">2006</option>
+              <option value="2007">2007 (La Niña Year)</option>
+              <option value="2008">2008</option>
+              <option value="2009">2009 (El Niño Year)</option>
+              <option value="2010">2010 (La Niña Year)</option>
+              <option value="2011">2011 (La Niña Year)</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015 (El Niño Year)</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020 (La Niña Year)</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023 (El Niño Year)</option>
+          </select>
+      </div>
+      
+        <div id=gsl_comparison_plots_div>
+          <svg id="gsl_comparison_plots_svg" 
+            viewBox="0 0 900 650" 
+            preserveAspectRatio="xMidYMid meet"
+            style="display: none; width: 100%; height: auto; margin-top: 5vh;">
+          </svg>
+        </div>
+
+        <p class = "text-style" id="story_end" style="opacity: 0; transition: transform 1s ease, opacity 1.5s ease; display: none; ">
+          Ignite your curiosity on what might be happening year to year and explore for yourself with these comparison charts. 
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            In summary, the climate teleconnections between the Pelicans' overwintering grounds in Mexico and the Great Salt Lake play a significant role in shaping their migration patterns and survival.
+            These complex interactions highlight the vulnerability of these species to climate-driven changes, such as extreme weather events like El Niño and the deterioration of their habitat at the lake.
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            Pelicans are being pushed to the brink, as the realization they are being climatically threatened is becoming clearer. 
+            While these birds have historically relied on the lake as a crucial stopover in their migration, these uncertain changes
+            are forcing them to adapt. 
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            It is clear that Pelicans may be increasingly finding the Great Salt Lake less suitable as a refuge and might be 
+            seeking habitat elsewhere. This potential shift is a sign of the broader impacts of climate change, not only on this 
+            species but on many others that depend on delicate ecosystems like the Great Salt Lake. 
+          </span>
+
+          <span class="text-style" style="display: block; margin-top: 3vh; transition: transform 1s ease, opacity 1.5s ease;">
+            Understanding these changes is key to recognizing what is at stake—for these birds, and for the ecosystems they depend on.
+          </span>
+        </p>
+        <button class="button-55" id='switch-story-button' role="button" style="opacity: 0; display: none; margin-bottom: 3vh; margin-left: 8vw;">
+          EXPLORE THE GREBE'S STORY
+        </button>
+  
+      </div>
+
+      <div id="pelican-map" 
+        style="flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        overflow-y: none;
+        margin-top: 7vh;">
+
+        <canvas id="pelican-map-canvas" 
+          style="width: 100%; height: auto;">
+        </canvas>
+
+        <div id="pelican-slider" 
+        style="display: none; position: absolute; width: 50%; bottom: 5vh;">
+
+          <label for="month-slider" style="margin-top: 3vh;">Month: <span id="month-label">January</span></label>
+          <div style="position: relative; width: 100%;">
+              <svg id="info-icon-pelican" width="40" height="40" style="position: absolute; top: -40px; right: 10px; cursor: pointer;"></svg>
+              <div id="month-ticks" style="position: absolute; top: 20px; left: 0.4%; width: 108%; height: 10px; display: flex; justify-content: space-between;">
+              </div>
+              <input type="range" id="month-slider" min="0" max="11" step="1" style="width: 100%; position: relative; z-index: 10;">
+          </div>
+      
+          <label for="year-slider" style="margin-top: 5vh;">Year: <span id="year-label">2004</span></label>
+          <div style="position: relative; width: 100%;">
+              <div id="slider-ticks" style="justify-content: space-evenly; position: absolute; top: 20px; left: 0.4%; width: 99.2%; height: 10px; display: flex;">
+              </div>
+              <input type="range" id="year-slider" min="0" max="11" step="1" style="width: 100%; position: relative; z-index: 10;">
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  
+ 
+    <style>
+      body{
+        overflow: hidden;
+      }
+
+      .text-style {
+        line-height: 1.7; 
+        font-family: 'Times New Roman', 
+        serif;color: black; 
+      }
+
+      .opening.hidden {
+          opacity: 0;
+        }
+
+      .opening_storyline.visible {
+        transform: translateY(-65vh);
+        opacity: 1;
+      }
+
+      .button-55 {
+          align-self: center;
+          background-color: #fff;
+          background-image: none;
+          background-position: 0 90%;
+          background-repeat: repeat no-repeat;
+          background-size: 4px 3px;
+          border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+          border-style: solid;
+          border-width: 2px;
+          box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+          box-sizing: border-box;
+          color: #41403e;
+          cursor: pointer;
+          display: inline-block;
+          font-family: Neucha, sans-serif;
+          font-size: 1rem;
+          line-height: 23px;
+          outline: none;
+          padding: .75rem;
+          text-decoration: none;
+          transition: all 235ms ease-in-out;
+          border-bottom-left-radius: 15px 255px;
+          border-bottom-right-radius: 225px 15px;
+          border-top-left-radius: 255px 15px;
+          border-top-right-radius: 15px 225px;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+        }
+
+      .button-55:hover {
+        box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+        transform: translate3d(0, 2px, 0);
+      }
+
+      .button-55:focus {
+        box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+      }
+
+      #dropdown-container {
+          display: flex;
+          text-align: center;
+          justify-content: center;  
+          align-items: center;      
+          gap: 10px;              
+          margin-top: 20px;        
+      }
+
+      #dropdown-container label {
+          margin-right: 5px;       
+          font-weight: bold;
+      }
+
+      #eg-dropdown-container {
+          display: flex;
+          text-align: center;
+          justify-content: center;  
+          align-items: center;      
+          gap: 10px;               
+          margin-top: 20px;         
+      }
+
+      #eg-dropdown-container label {
+          margin-right: 5px;        
+          font-weight: bold;
+      }
+
+      select {
+          padding: 5px;
+          font-size: 14px;
+}
+
+  </style>    
+  <script type="module" src="./src/main.js"></script>
+
+  </body>
+</html>
