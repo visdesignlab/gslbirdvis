@@ -1,0 +1,14 @@
+body{
+  overflow: hidden;
+}
+
+.opening.hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+.opening_storyline.visible {
+  transform: translateY(-230%);
+  opacity: 1;
+}
+
