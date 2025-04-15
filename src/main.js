@@ -2,7 +2,7 @@ import * as d3 from 'd3'
 
 /**
  * This function setups the structure of the website. The setup code allows certain html elements to be visible, triggers transitions, 
- * and calls functions that animate visualizations or allow the user to interact. 
+ * and calls functions that animate visualizations or allow the user to interact.  
  */
 function setup() {
     
