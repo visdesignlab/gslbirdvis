@@ -276,7 +276,7 @@ function setup() {
 
         const gsl__plot = document.getElementById('gsl__plot_svg')
         gsl__plot.style.display = 'block';
-        plot_gsl_(gsl__plot, "/amp_geojsons/filtered_AMP_UT_Year_Avgs.json");
+        plot_gsl_birds(gsl__plot, "amp_geojsons/filtered_AMP_UT_Year_Avgs.json");
 
         const gsl_content2 = document.getElementById('gsl-content2');
         gsl_content2.style.display = 'block';
@@ -346,7 +346,7 @@ function setup() {
 
         const gsl__plot = document.getElementById('eg_gsl__plot_svg')
         gsl__plot.style.display = 'block';
-        plot_gsl_(gsl_plot, "eg_geojsons/filtered_EG_UT_Year_Avgs.json");
+        plot_gsl_birds(gsl__plot, "eg_geojsons/filtered_EG_UT_Year_Avgs.json");
 
         const gsl_content2 = document.getElementById('eg-gsl-content2');
         gsl_content2.style.display = 'block';
