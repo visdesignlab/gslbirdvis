@@ -108,9 +108,9 @@ function setup() {
             const yearMonthKey = `${year}-${formattedMonth}`;  
 
             egJsons[yearMonthKey] = {
-                MX: `eg_geojsons/monthly_MX_jsons/EG_MX_${year}-${formattedMonth}.json`,
-                UT: `eg_geojsons/monthly_UT_jsons/EG_UT_${year}-${formattedMonth}.json`,
-                AZ: `eg_geojsons/monthly_AZ_jsons/EG_AZ_${year}-${formattedMonth}.json`
+                MX: `/eg_geojsons/monthly_MX_jsons/EG_MX_${year}-${formattedMonth}.json`,
+                UT: `/eg_geojsons/monthly_UT_jsons/EG_UT_${year}-${formattedMonth}.json`,
+                AZ: `/eg_geojsons/monthly_AZ_jsons/EG_AZ_${year}-${formattedMonth}.json`
             };
         }
     }
