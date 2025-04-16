@@ -93,7 +93,7 @@ function setup() {
             const yearMonthKey = `${year}-${formattedMonth}`;  
 
             pelicanJsons[yearMonthKey] = {
-                MX: `amp_geojsons/monthly_MX_jsons/AMP_MX_${year}-${formattedMonth}.json`,
+                MX: `/birds/amp_geojsons/monthly_MX_jsons/AMP_MX_${year}-${formattedMonth}.json`,
                 UT: `amp_geojsons/monthly_UT_jsons/AMP_UT_${year}-${formattedMonth}.json`,
                 AZ: `amp_geojsons/monthly_AZ_jsons/AMP_AZ_${year}-${formattedMonth}.json`
             };
