@@ -243,7 +243,7 @@ function plot_pixels(canvas, jsonPathsByYear, id, slider_id, yearLabel_id, yearS
         tick.style.left = `calc(${((i - startYear) / (endYear - startYear)) * 100}% - 0.5px)`;
         tick.style.height = "10px";
         tick.style.width = "2px";
-        tick.style.backgroundColor = "black";
+        tick.style.backgroundColor = "black"; 
 
         const yearLabel = document.createElement("span");
         yearLabel.textContent = i;
