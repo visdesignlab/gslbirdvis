@@ -5,7 +5,7 @@ import * as d3 from 'd3'
  * and calls functions that animate visualizations or allow the user to interact.  
  */
 function setup() {
-    
+     
     const body = d3.select('body')
     body.style("background-color", "white"); 
     const opening = document.querySelector(".opening");
