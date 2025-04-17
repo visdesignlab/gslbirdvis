@@ -27,7 +27,7 @@ function climate_map(svg, year_slider, month_slider) {
      * @param {Object} d3Svg - D3 selection of the svg element.
      */
     async function draw_plots(width, height, margin, d3Svg) {
-        const oniResponse = await fetch("climate_data/oni_data.txt");
+        const oniResponse = await fetch("/birds/climate_data/oni_data.txt");
         const oniText = await oniResponse.text();
         const oniLines = oniText.trim().split("\n");
         const oniData = [];
@@ -43,7 +43,7 @@ function climate_map(svg, year_slider, month_slider) {
             });
         });
 
-        const sstResponse = await fetch("climate_data/sst_data.txt");
+        const sstResponse = await fetch("/birds/climate_data/sst_data.txt");
         const sstText = await sstResponse.text();
         const sstLines = sstText.trim().split("\n");
         const sstData = [];

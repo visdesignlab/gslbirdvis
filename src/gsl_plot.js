@@ -30,7 +30,7 @@ function plot_gsl_elevation(svg, year_slider, month_slider) {
      * - An info icon with a hoverable tooltip for context     *
      */
     async function drawLineGraph() {
-        const data = await d3.text('climate_data/processed_gsl_elevation_data.txt');        
+        const data = await d3.text('/birds/climate_data/processed_gsl_elevation_data.txt');        
         const parsedData = data.trim().split("\n").map(line => {
             const [year, value] = line.split("\t").map(d => +d);
             return { year, value };
