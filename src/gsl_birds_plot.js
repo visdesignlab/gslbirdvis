@@ -1,3 +1,6 @@
+window.plot_gsl_birds = plot_gsl_birds;
+window.plot_gsl_comparisons = plot_gsl_comparisons;
+window.plot_gsl_comparisons_fixed_years = plot_gsl_comparisons_fixed_years;
 /**
  * Plots a time-series visualization of bird species reported at the Great Salt Lake (GSL),
  * using normalized monthly averages from a GeoJSON dataset. The plot includes both a raw
