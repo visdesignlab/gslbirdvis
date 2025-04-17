@@ -123,7 +123,7 @@
 
     </style>
     <div class="opening" width=100%>
-        <img src="public/Animation Eat GIF by Zezaz.gif" width="60%"
+        <img src="/Animation Eat GIF by Zezaz.gif" width="60%"
         style="transition: opacity 1s ease;"/>
         <p class = "title" 
         style=
@@ -568,14 +568,14 @@
           <label for="eg-month-slider" style="margin-top: 3vh;">Month: <span id="eg-month-label">January</span></label>
           <div style="position: relative; width: 100%;">
               <svg id="info-icon-eg" width="40" height="40" style="position: absolute; top: -40px; right: 10px; cursor: pointer;"></svg>
-              <div id="eg-month-ticks">
+              <div id="eg-month-ticks" style="position: absolute; top: 20px; left: 0.4%; width: 108%; height: 10px; display: flex; justify-content: space-between;">
               </div>
               <input type="range" id="eg-month-slider" min="0" max="11" step="1" style="width: 100%; position: relative; z-index: 10;">
           </div>
       
           <label for="eg-year-slider" style="margin-top: 5vh; z-index: 1;">Year: <span id="eg-year-label">2004</span></label>
           <div style="position: relative; width: 100%;">
-              <div id="eg-slider-ticks">
+              <div id="eg-slider-ticks" style="justify-content: space-evenly; position: absolute; top: 20px; left: 0.4%; width: 99.2%; height: 10px; display: flex;">
               </div>
               <input type="range" id="eg-year-slider" min="0" max="11" step="1" style="width: 100%; position: relative; z-index: 10;">
           </div>
