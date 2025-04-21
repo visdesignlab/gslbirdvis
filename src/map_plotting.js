@@ -197,7 +197,7 @@ function plot_pixels(canvas, jsonPathsByYear, id, slider_id, yearLabel_id, yearS
             .style("border-radius", "3px")
             .style("box-shadow", "1px 1px 3px rgba(0,0,0,0.3)")
             .style("font-size", "10px") 
-            .style("max-width", "200px") 
+            .style("max-width", "250px") 
             .style("display", "none") 
             .html(`<strong>What does this map show?</strong><br>This map visualizes bird observations over the past 20 years, animating each month to reveal the migration and movement dynamics of the chosen species. The animation is powered by observation data from eBird, a global citizen science platform that collects bird sightings from volunteers. <br><br> While the data shows an overall increase in observations over time, this trend is influenced by the growing number of birders contributing to eBird rather than a direct reflection of rising bird populations. As you continue through this story, we’ll explore what’s truly happening between seasons and how climate and habitat changes are shaping these migratory patterns. <br><br> Once the animation concludes, you can update the data to reflect your own curiosity—allowing you to explore different time periods or patterns that stand out to you.`);
     }
@@ -205,7 +205,7 @@ function plot_pixels(canvas, jsonPathsByYear, id, slider_id, yearLabel_id, yearS
     const tooltip = d3.select(".info-tooltip");
     infoIcon.on("mouseover", function(event) {
         tooltip.style("left", `${event.pageX - 200}px`)
-            .style("top", `${event.pageY - 400}px`)
+            .style("top", `${event.pageY - 350}px`)
             .style("display", "block");
     });
     infoIcon.on("mouseout", function() {
@@ -377,7 +377,7 @@ function animateData(animationState) {
 
     let year = startYear;
     let month = 0;
-    const duration = 35;
+    const duration = 50;
     let userInteracted = false;
 
     yearSlider.disabled = true;
