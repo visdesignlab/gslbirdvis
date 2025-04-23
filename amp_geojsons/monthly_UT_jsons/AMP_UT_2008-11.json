@@ -1,0 +1,5353 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8179609,
+                    40.5544206
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8193778,
+                    40.5541361
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-25",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8193778,
+                    40.5541361
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-23",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8192718,
+                    40.554325
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-25",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8201405,
+                    41.7070221
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-09",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7018068,
+                    41.761885
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7018068,
+                    41.761885
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-17",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7858243,
+                    41.7292892
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-23",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7858243,
+                    41.7292892
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-27",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8900871,
+                    41.7439081
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8900871,
+                    41.7439081
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8900871,
+                    41.7439081
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9209003,
+                    40.5796394
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.874879,
+                    40.6112159
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.841013,
+                    41.7360333
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-08",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.17326,
+                    40.8968335
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.17326,
+                    40.8968335
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.2407765,
+                    41.054726
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.2407765,
+                    41.054726
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.16915,
+                    40.926033
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.16915,
+                    40.926033
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.9654984,
+                    37.2285636
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-17",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.9654984,
+                    37.2285636
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.9654984,
+                    37.2285636
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.9654984,
+                    37.2285636
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.9654984,
+                    37.2285636
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.9654984,
+                    37.2285636
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.4526596,
+                    37.316864
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.4526596,
+                    37.316864
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8705597,
+                    40.4980545
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-27",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8705597,
+                    40.4980545
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-25",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.5467578,
+                    41.9431015
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.186714,
+                    41.08841
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.186714,
+                    41.08841
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-09",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.186714,
+                    41.08841
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.186714,
+                    41.08841
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-11",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.186714,
+                    41.08841
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.186714,
+                    41.08841
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.186714,
+                    41.08841
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.186714,
+                    41.08841
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.186714,
+                    41.08841
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-09",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.186714,
+                    41.08841
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-02",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.186714,
+                    41.08841
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.186714,
+                    41.08841
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-09",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.186714,
+                    41.08841
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.3835411,
+                    37.1206326
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-11",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8015004,
+                    40.1395552
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-19",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8015004,
+                    40.1395552
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8015004,
+                    40.1395552
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-19",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.04785,
+                    37.436527
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.04785,
+                    37.436527
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-14",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.04785,
+                    37.436527
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.04785,
+                    37.436527
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.2947788,
+                    41.4692291
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-17",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.83478,
+                    41.73553
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.83478,
+                    41.73553
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9191396,
+                    40.955141
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9191396,
+                    40.955141
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-13",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9191396,
+                    40.955141
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-02",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9191396,
+                    40.955141
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-26",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9191396,
+                    40.955141
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9525719,
+                    41.787153
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9525719,
+                    41.787153
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8595,
+                    41.61963
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8595,
+                    41.61963
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8595,
+                    41.61963
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8595,
+                    41.61963
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8595,
+                    41.61963
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8595,
+                    41.61963
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8595,
+                    41.61963
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-11",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7285157,
+                    40.2186598
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-13",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7285157,
+                    40.2186598
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-09",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7285157,
+                    40.2186598
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-20",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7285157,
+                    40.2186598
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-14",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7285157,
+                    40.2186598
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-08",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7285157,
+                    40.2186598
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-08",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7285157,
+                    40.2186598
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-18",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7285157,
+                    40.2186598
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-06",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.86127,
+                    40.565826
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-23",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.86127,
+                    40.565826
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.86127,
+                    40.565826
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.86127,
+                    40.565826
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.86127,
+                    40.565826
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-27",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.86127,
+                    40.565826
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-02",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.86127,
+                    40.565826
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.855865,
+                    40.705223
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.855865,
+                    40.705223
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-19",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-21",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-20",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-06",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-05",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-25",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-07",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-19",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-03",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-08",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-17",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-11",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-12",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-24",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-26",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-10",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-18",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-02",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.82066,
+                    41.77911
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-09",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.3387241,
+                    40.6014276
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-23",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.2383881,
+                    41.0465405
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-25",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.2383881,
+                    41.0465405
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-14",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.2383881,
+                    41.0465405
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.2383881,
+                    41.0465405
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-13",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.2383881,
+                    41.0465405
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-23",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9776344,
+                    40.7904195
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-20",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.01578,
+                    41.51024
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-02",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.88777,
+                    40.98054
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-10",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.9109363,
+                    37.0968031
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.9109363,
+                    37.0968031
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.0232372,
+                    37.1434192
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.0232372,
+                    37.1434192
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.0232372,
+                    37.1434192
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.5999095,
+                    37.0802517
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-27",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0437241,
+                    40.7397136
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0437241,
+                    40.7397136
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0437241,
+                    40.7397136
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-09",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0437241,
+                    40.7397136
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-19",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0437241,
+                    40.7397136
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-23",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0437241,
+                    40.7397136
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-24",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0437241,
+                    40.7397136
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-03",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0437241,
+                    40.7397136
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-11",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0437241,
+                    40.7397136
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0437241,
+                    40.7397136
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.826449,
+                    40.635972
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-14",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6446943,
+                    40.2237592
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-07",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.617658,
+                    39.3528238
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.617658,
+                    39.3528238
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.0276944,
+                    40.3330871
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-02",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.3767755,
+                    37.1162993
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-11",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.737139,
+                    40.1662735
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-19",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.737139,
+                    40.1662735
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.624527,
+                    40.8521245
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.100346,
+                    40.7837893
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-08",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.100346,
+                    40.7837893
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.100346,
+                    40.7837893
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.2079376,
+                    40.7320925
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-09",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.2079376,
+                    40.7320925
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.7721874,
+                    37.255147
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.7721874,
+                    37.255147
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.2704377,
+                    37.2078329
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-23",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -109.66475,
+                    40.19865
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-19",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.68722,
+                    40.776814
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.68722,
+                    40.776814
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-08",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7150048,
+                    40.7560664
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-23",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7150048,
+                    40.7560664
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-23",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7150048,
+                    40.7560664
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-23",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9488016,
+                    40.7114011
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-11",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-17",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-26",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-26",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-17",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-26",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-17",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-17",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-26",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-18",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-17",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-18",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8063121,
+                    40.1456645
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-23",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8508335,
+                    40.7239104
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-20",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.3888935,
+                    37.1841361
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-26",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.5503182,
+                    40.3466095
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8971309,
+                    41.7731387
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8971309,
+                    41.7731387
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8971309,
+                    41.7731387
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8971309,
+                    41.7731387
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8971309,
+                    41.7731387
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.5928922,
+                    40.9073716
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9405857,
+                    41.0221426
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-09",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.3936175,
+                    39.865343
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-21",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8596427,
+                    40.7772188
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8596427,
+                    40.7772188
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8645096,
+                    40.8046493
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-24",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8645096,
+                    40.8046493
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-08",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.3190823,
+                    37.1318215
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-10",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.3190823,
+                    37.1318215
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-25",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.3190823,
+                    37.1318215
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-08",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.3190823,
+                    37.1318215
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-11",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.3190823,
+                    37.1318215
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-08",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8492665,
+                    41.7124539
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-14",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8492665,
+                    41.7124539
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-08",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8492665,
+                    41.7124539
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-23",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8492665,
+                    41.7124539
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-13",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7898228,
+                    41.7422935
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7898228,
+                    41.7422935
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7898228,
+                    41.7422935
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7898228,
+                    41.7422935
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7898228,
+                    41.7422935
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-23",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8320154,
+                    41.5680297
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.7053661,
+                    38.5701797
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-09",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8110907,
+                    40.6727291
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-09",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7228462,
+                    40.1683815
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.9810085,
+                    37.1070121
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.9810085,
+                    37.1070121
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8753028,
+                    41.7316271
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-25",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7228462,
+                    40.1683815
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-20",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7228462,
+                    40.1683815
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-19",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0780114,
+                    40.4701261
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-25",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9464028,
+                    41.7452369
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9464028,
+                    41.7452369
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.861535,
+                    40.5559301
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-06",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.861535,
+                    40.5559301
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-02",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.861535,
+                    40.5559301
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.861535,
+                    40.5559301
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-18",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.3954716,
+                    37.1839118
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-12",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.3954716,
+                    37.1839118
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-12",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.3954716,
+                    37.1839118
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.3954716,
+                    37.1839118
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.3954716,
+                    37.1839118
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.3954716,
+                    37.1839118
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-11",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.429863,
+                    40.5784986
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-10",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.640419,
+                    37.7165535
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-12",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8220502,
+                    41.7514044
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-18",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8220502,
+                    41.7514044
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-10",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8220502,
+                    41.7514044
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-03",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8220502,
+                    41.7514044
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-18",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8220502,
+                    41.7514044
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-25",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8220502,
+                    41.7514044
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-06",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8220502,
+                    41.7514044
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-24",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8220502,
+                    41.7514044
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-05",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8220502,
+                    41.7514044
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-21",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8220502,
+                    41.7514044
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8220502,
+                    41.7514044
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-13",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8220502,
+                    41.7514044
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8220502,
+                    41.7514044
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-17",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8099213,
+                    41.7434518
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-03",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8492317,
+                    40.7232584
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-09",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8210149,
+                    40.7238926
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-14",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8210149,
+                    40.7238926
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-05",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9323158,
+                    41.8521735
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7218187,
+                    40.3646535
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-09",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7218187,
+                    40.3646535
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-23",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7218187,
+                    40.3646535
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.73076,
+                    40.12185
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-26",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.73076,
+                    40.12185
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-26",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.34973,
+                    38.22808
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-02",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6429012,
+                    38.4022695
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-09",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.7055593,
+                    38.3738781
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-09",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8974686,
+                    40.3941496
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-21",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.850605,
+                    40.1149707
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-11",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8021107,
+                    40.3431833
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-18",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0613515,
+                    39.9556503
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0694518,
+                    40.0306459
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8174744,
+                    40.6374042
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-10",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8174744,
+                    40.6374042
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-17",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8573481,
+                    40.7357384
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-21",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8573481,
+                    40.7357384
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-17",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8573481,
+                    40.7357384
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-10",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9181538,
+                    40.7412744
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8847656,
+                    40.9145504
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-13",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9734287,
+                    41.8956649
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-09",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6516173,
+                    40.2178562
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-19",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8142128,
+                    41.5260577
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-14",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.3440323,
+                    40.6031358
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.3440323,
+                    40.6031358
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6058978,
+                    40.4048157
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-14",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.2040558,
+                    40.9560485
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6167164,
+                    40.8549972
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-23",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-08",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-05",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-04",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-06",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-11",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-05",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-23",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-24",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-05",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-04",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-05",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-06",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-05",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8809032,
+                    41.7320355
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-05",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.5840282,
+                    40.5009431
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.3622632,
+                    39.5258502
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8500444,
+                    41.705296
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.8306198,
+                    38.2200432
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0166016,
+                    38.1667523
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-13",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8186017,
+                    41.7340199
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.3921967,
+                    41.45302
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-18",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.3921967,
+                    41.45302
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-25",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8244696,
+                    41.8372115
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8244696,
+                    41.8372115
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-08",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.4916611,
+                    40.5348072
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-21",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.4916611,
+                    40.5348072
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-07",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7940238,
+                    41.5248458
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-08",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8173496,
+                    41.53632
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-11",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8173496,
+                    41.53632
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-14",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.450398,
+                    39.1403128
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-07",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0450102,
+                    41.920009
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0450102,
+                    41.920009
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9471431,
+                    41.1922027
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-17",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6446972,
+                    39.6215571
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6446972,
+                    39.6215571
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6861105,
+                    39.5560081
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6861105,
+                    39.5560081
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6602004,
+                    39.5569097
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6602004,
+                    39.5569097
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6198492,
+                    39.5036434
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6198492,
+                    39.5036434
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6717768,
+                    39.2016641
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6717768,
+                    39.2016641
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7078686,
+                    39.2063198
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7078686,
+                    39.2063198
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8614197,
+                    39.2107757
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8614197,
+                    39.2107757
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -109.818778,
+                    40.3542954
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-19",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -109.790411,
+                    40.3521696
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-19",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.6992264,
+                    37.3379541
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-10",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.3231192,
+                    40.5552871
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-21",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.925786,
+                    40.6732407
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-14",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8080405,
+                    41.7483188
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-24",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.1747608,
+                    40.1758567
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-25",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.3774554,
+                    40.1633788
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-25",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.455513,
+                    40.191627
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-25",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6403842,
+                    40.1971178
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-25",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7637546,
+                    41.7700899
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8882605,
+                    41.5788648
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8073061,
+                    41.9633434
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.762655,
+                    41.9264715
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8028416,
+                    41.9299012
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.4851513,
+                    39.3951475
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.4851513,
+                    39.3951475
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.612052,
+                    39.0964625
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.2694588,
+                    38.9489964
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.076093,
+                    41.5093084
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9979978,
+                    40.713598
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-27",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9979978,
+                    40.713598
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-27",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9296551,
+                    40.9526777
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-27",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.9296551,
+                    40.9526777
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-27",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8775666,
+                    40.7701337
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8775666,
+                    40.7701337
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6849518,
+                    39.2716003
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.3604393,
+                    39.5241703
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.6083183,
+                    39.2450168
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.2706604,
+                    38.9489964
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-28",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6953588,
+                    40.4469307
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7416,
+                    40.023408
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-20",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8955803,
+                    41.7442924
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0481443,
+                    41.9201058
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.5050926,
+                    40.4146087
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.04979,
+                    41.92023
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.656979,
+                    41.7612848
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-15",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.790899,
+                    40.704532
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-18",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0327377,
+                    40.0615193
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.9866922,
+                    37.2004753
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.8054714,
+                    38.4733472
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6151714,
+                    39.5101332
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6786969,
+                    39.5546928
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.6355133,
+                    39.6353073
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-29",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.0389953,
+                    37.4058067
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -113.0389953,
+                    37.4058067
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-30",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.068851,
+                    41.5076774
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-06",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.068851,
+                    41.5076774
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-06",
+                "species_reported": "0"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7166984,
+                    41.7536896
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.890173,
+                    40.2109386
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-22",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8050504,
+                    41.740738
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8050504,
+                    41.740738
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-23",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.898241,
+                    40.3601818
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-01",
+                "species_reported": "1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.7512131,
+                    40.1679866
+                ]
+            },
+            "properties": {
+                "observation_date": "2008-11-16",
+                "species_reported": "0"
+            }
+        }
+    ]
+}
