@@ -1,4 +1,8 @@
 import * as d3 from 'd3'
+import './map_plotting.js';
+import './climate_data.js';
+import './gsl_plot.js';
+import './gsl_birds_plot.js';
 
 /**
  * This function setups the structure of the website. The setup code allows certain html elements to be visible, triggers transitions, 
