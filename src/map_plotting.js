@@ -36,8 +36,8 @@ function plot_map(canvas, id) {
         .style("opacity", 0);
     
     Promise.all([
-        d3.json('birds/map_geojsons/us_states.geojson'),
-        d3.json('birds/map_geojsons/states.geojson')
+        d3.json('./map_geojsons/us_states.geojson'),
+        d3.json('./map_geojsons/states.geojson')
     ]).then(([usGeojson, mexicoGeojson]) => {
         const combinedGeojson = {
             type: "FeatureCollection",

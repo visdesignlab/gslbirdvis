@@ -280,7 +280,7 @@ function setup() {
 
         const gsl_birds_plot = document.getElementById('gsl_birds_plot_svg')
         gsl_birds_plot.style.display = 'block';
-        plot_gsl_birds(gsl_birds_plot, "birds/amp_geojsons/filtered_AMP_UT_Year_Avgs.json");
+        plot_gsl_birds(gsl_birds_plot, "/birds/amp_geojsons/filtered_AMP_UT_Year_Avgs.json");
 
         const gsl_content2 = document.getElementById('gsl-content2');
         gsl_content2.style.display = 'block';
@@ -289,7 +289,7 @@ function setup() {
 
         const comparison_plot1 = document.getElementById('comparison_plot_1_svg')
         comparison_plot1.style.display = 'block';
-        plot_gsl_comparisons_fixed_years("birds/amp_geojsons/filtered_AMP_UT_Year_Avgs.json", "#comparison_plot_1_svg", '2009', '2011');
+        plot_gsl_comparisons_fixed_years("/birds/amp_geojsons/filtered_AMP_UT_Year_Avgs.json", "#comparison_plot_1_svg", '2009', '2011');
 
         const comparison_plot1_text = document.getElementById('comparison_plot1');
         comparison_plot1_text.style.display = 'block';
@@ -298,7 +298,7 @@ function setup() {
 
         const comparison_plot2 = document.getElementById('comparison_plot_2_svg')
         comparison_plot2.style.display = 'block';
-        plot_gsl_comparisons_fixed_years("birds/amp_geojsons/filtered_AMP_UT_Year_Avgs.json", "#comparison_plot_2_svg", '2010', '2011');
+        plot_gsl_comparisons_fixed_years("/birds/amp_geojsons/filtered_AMP_UT_Year_Avgs.json", "#comparison_plot_2_svg", '2010', '2011');
 
         const comparison_plot2_text = document.getElementById('comparison_plot2');
         comparison_plot2_text.style.display = 'block';
@@ -307,7 +307,7 @@ function setup() {
 
         const comparison_plot3 = document.getElementById('comparison_plot_3_svg')
         comparison_plot3.style.display = 'block';
-        plot_gsl_comparisons_fixed_years("birds/amp_geojsons/filtered_AMP_UT_Year_Avgs.json", "#comparison_plot_3_svg", '2015', '2023');
+        plot_gsl_comparisons_fixed_years("/birds/amp_geojsons/filtered_AMP_UT_Year_Avgs.json", "#comparison_plot_3_svg", '2015', '2023');
 
         const comparison_plot3_text = document.getElementById('comparison_plot3');
         comparison_plot3_text.style.display = 'block';
@@ -316,7 +316,7 @@ function setup() {
 
         const gsl_comparison_plots = document.getElementById('gsl_comparison_plots_svg')
         gsl_comparison_plots.style.display = 'block';
-        plot_gsl_comparisons("birds/amp_geojsons/filtered_AMP_UT_Year_Avgs.json", "year1-dropdown", "year2-dropdown", "#gsl_comparison_plots_svg");
+        plot_gsl_comparisons("/birds/amp_geojsons/filtered_AMP_UT_Year_Avgs.json", "year1-dropdown", "year2-dropdown", "#gsl_comparison_plots_svg");
 
         const dropdown_div = document.getElementById("dropdown-container")
         dropdown_div.style.display = 'block';  
@@ -350,7 +350,7 @@ function setup() {
 
         const gsl_birds_plot = document.getElementById('eg_gsl_birds_plot_svg')
         gsl_birds_plot.style.display = 'block';
-        plot_gsl_birds(gsl_birds_plot, "birds/eg_geojsons/filtered_EG_UT_Year_Avgs.json");
+        plot_gsl_birds(gsl_birds_plot, "/birds/eg_geojsons/filtered_EG_UT_Year_Avgs.json");
 
         const gsl_content2 = document.getElementById('eg-gsl-content2');
         gsl_content2.style.display = 'block';
@@ -359,7 +359,7 @@ function setup() {
 
         const comparison_plot1 = document.getElementById('eg_comparison_plot_1_svg')
         comparison_plot1.style.display = 'block';
-        plot_gsl_comparisons_fixed_years("birds/eg_geojsons/filtered_EG_UT_Year_Avgs.json", "#eg_comparison_plot_1_svg", '2009', '2011');
+        plot_gsl_comparisons_fixed_years("/birds/eg_geojsons/filtered_EG_UT_Year_Avgs.json", "#eg_comparison_plot_1_svg", '2009', '2011');
 
         const comparison_plot1_text = document.getElementById('eg_comparison_plot2');
         comparison_plot1_text.style.display = 'block';
@@ -368,7 +368,7 @@ function setup() {
 
         const comparison_plot2 = document.getElementById('eg_comparison_plot_2_svg')
         comparison_plot2.style.display = 'block';
-        plot_gsl_comparisons_fixed_years("birds/eg_geojsons/filtered_EG_UT_Year_Avgs.json", "#eg_comparison_plot_2_svg", '2011', '2015');
+        plot_gsl_comparisons_fixed_years("/birds/eg_geojsons/filtered_EG_UT_Year_Avgs.json", "#eg_comparison_plot_2_svg", '2011', '2015');
 
         const comparison_plot2_text = document.getElementById('eg_comparison_plot1');
         comparison_plot2_text.style.display = 'block';
@@ -377,7 +377,7 @@ function setup() {
 
         const gsl_comparison_plots = document.getElementById('eg_gsl_comparison_plots_svg')
         gsl_comparison_plots.style.display = 'block';
-        plot_gsl_comparisons("birds/eg_geojsons/filtered_EG_UT_Year_Avgs.json", "eg-year1-dropdown", "eg-year2-dropdown", "#eg_gsl_comparison_plots_svg");
+        plot_gsl_comparisons("/birds/eg_geojsons/filtered_EG_UT_Year_Avgs.json", "eg-year1-dropdown", "eg-year2-dropdown", "#eg_gsl_comparison_plots_svg");
 
         const dropdown_div = document.getElementById("eg-dropdown-container")
         dropdown_div.style.display = 'block';  
