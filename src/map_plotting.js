@@ -143,7 +143,7 @@ function plot_pixels(canvas, jsonPathsByYear, id, slider_id, yearLabel_id, yearS
         }
     }
 
-    Promise.all([d3.json('/birds/map_geojsons/us_states.geojson'),d3.json('/birds/map_geojsons/states.geojson')])
+    Promise.all([d3.json('./map_geojsons/us_states.geojson'),d3.json('./map_geojsons/states.geojson')])
     .then(([usGeojson, mexicoGeojson]) => {combinedGeojson = {
         type: "FeatureCollection",
         features: usGeojson.features.concat(mexicoGeojson.features)};   
