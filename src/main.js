@@ -14,29 +14,37 @@ function setup() {
     body.style("background-color", "white"); 
     const opening = document.querySelector(".opening");
     const openingStoryline = document.querySelector(".opening_storyline");
+    const visName = document.querySelector('.vis-name');
     
-    // Event listener that triggers transition from first page to second page
     let scrollProgress = 0; 
+    function updateTransition() {
+        const visNameHeight = visName.getBoundingClientRect().height;
+        const openingHeight = opening.getBoundingClientRect().height;
+      
+        const shiftAmount = openingHeight - visNameHeight;
+      
+        if (scrollProgress >= 50) {
+          opening.style.opacity = 0;
+          openingStoryline.style.opacity = 1;
+          openingStoryline.style.transform = `translateY(-${shiftAmount}px)`;
+        } else {
+          opening.style.opacity = 1;
+          openingStoryline.style.transform = `translateY(0)`;
+          openingStoryline.style.opacity = 0;
+        }
+      }
+    
     
     window.addEventListener("wheel", (event) => {
         if (event.deltaY > 0) {
-            scrollProgress = Math.min(scrollProgress + 10, 100); // Scroll down 
+            scrollProgress = Math.min(scrollProgress + 10, 100); // Scroll down
         } else {
-            scrollProgress = Math.max(scrollProgress - 10, 0); // Scroll up 
+            scrollProgress = Math.max(scrollProgress - 10, 0); // Scroll up
         }
     
-        // Trigger transition
-        if (scrollProgress >= 50) {
-            opening.style.opacity = 0;
-            openingStoryline.style.transform = `translateY(-425px)`;
-            openingStoryline.style.opacity = 1;
-        } else {
-            opening.style.opacity = 1;
-            openingStoryline.style.transform = "translateY(0)";
-            openingStoryline.style.opacity = 0;
-        }
+        updateTransition(); // Apply the transformation here
     });
-
+    
     const homeButton = document.getElementById('home-button')
     homeButton.addEventListener('click', function () {
         window.location.reload();
