@@ -42,7 +42,7 @@ function setup() {
             scrollProgress = Math.max(scrollProgress - 10, 0); // Scroll up
         }
     
-        updateTransition(); // Apply the transformation here
+        updateTransition(); // Apply the transformation
     });
     
     const homeButton = document.getElementById('home-button')
