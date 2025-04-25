@@ -10,4 +10,4 @@ The site emphasizes the ecological significance of the Great Salt Lake, offering
 
 **Simulations:** The website includes interactive simulations that model the influence of global climate events (like El Niño and La Niña) as well as local climatic factors on the movement dynamics of both species.
 
-**Interactive Story:** The story encourages users to explore the connections between climate data and wildlife conservation, helping them visualize how climate change and climate anomalies impact species survival.
+**Interactive Story:** The story encourages users to explore the connections between climate events and bird population dynamics, helping them visualize how climate change impacts species survival.
