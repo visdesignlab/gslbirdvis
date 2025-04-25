@@ -11,7 +11,6 @@ import './gsl_birds_plot.js';
 function setup() {
      
     const body = d3.select('body')
-    body.style("background-color", "white"); 
     const opening = document.querySelector(".opening");
     const openingStoryline = document.querySelector(".opening_storyline");
     const visName = document.querySelector('.vis-name');
