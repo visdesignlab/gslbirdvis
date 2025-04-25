@@ -17,46 +17,25 @@ function setup() {
     
     // Event listener that triggers transition from first page to second page
     let scrollProgress = 0; 
-    function updateTransition() {
-        const shiftAmount = window.innerHeight * 0.65; // Dynamically based on viewport
+    
+    window.addEventListener("wheel", (event) => {
+        if (event.deltaY > 0) {
+            scrollProgress = Math.min(scrollProgress + 10, 100); // Scroll down 
+        } else {
+            scrollProgress = Math.max(scrollProgress - 10, 0); // Scroll up 
+        }
+    
+        // Trigger transition
         if (scrollProgress >= 50) {
             opening.style.opacity = 0;
-            openingStoryline.style.transform = `translateY(-${shiftAmount}px)`;
+            openingStoryline.style.transform = `translateY(-425px)`;
             openingStoryline.style.opacity = 1;
         } else {
             opening.style.opacity = 1;
             openingStoryline.style.transform = "translateY(0)";
             openingStoryline.style.opacity = 0;
         }
-    }
-    
-    window.addEventListener("wheel", (event) => {
-        if (event.deltaY > 0) {
-            scrollProgress = Math.min(scrollProgress + 10, 100); // Scroll down
-        } else {
-            scrollProgress = Math.max(scrollProgress - 10, 0); // Scroll up
-        }
-    
-        updateTransition(); // Apply the transformation here
     });
-    // window.addEventListener("wheel", (event) => {
-    //     if (event.deltaY > 0) {
-    //         scrollProgress = Math.min(scrollProgress + 10, 100); // Scroll down 
-    //     } else {
-    //         scrollProgress = Math.max(scrollProgress - 10, 0); // Scroll up 
-    //     }
-    
-    //     // Trigger transition
-    //     if (scrollProgress >= 50) {
-    //         opening.style.opacity = 0;
-    //         openingStoryline.style.transform = `translateY(-65vh)`;
-    //         openingStoryline.style.opacity = 1;
-    //     } else {
-    //         opening.style.opacity = 1;
-    //         openingStoryline.style.transform = "translateY(0)";
-    //         openingStoryline.style.opacity = 0;
-    //     }
-    // });
 
     const homeButton = document.getElementById('home-button')
     homeButton.addEventListener('click', function () {
